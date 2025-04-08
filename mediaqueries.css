@@ -1,0 +1,14 @@
+h2{
+    background-color: wheat;
+    height: 100px;
+    width: 400px;
+}
+@media screen and (max-width: 800px) {
+    h2{
+        background-color: aqua;
+    }
+    @media screen and (max-width: 600px) {
+        h2{
+            background-color: yellow;
+        }
+    }
